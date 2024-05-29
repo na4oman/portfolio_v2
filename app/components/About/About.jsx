@@ -7,8 +7,12 @@ const About = () => {
   const showModalHandler = e => {
     // const src = e.target.src.substr(21)
     // For development purposes only
-    const src = e.target.__reactProps$z2wawz801b.src
-    console.log(e.target.__reactProps$z2wawz801b.src)
+    // const src = e.target.__reactProps$z2wawz801b.src
+    // console.log(e.target.baseURI)
+    // console.log(e.target.src)
+    const baseURI = e.target.baseURI
+    const src = e.target.src.substring(baseURI.length - 1)
+    // console.log(src)
     document.getElementById('my_modal_2').showModal()
     setImgSrc(src)
   }
