@@ -5,7 +5,7 @@ const About = () => {
   const [imgSrc, setImgSrc] = useState('')
 
   const showModalHandler = e => {
-    const src = e.target.src.substr(22)
+    const src = e.target.src.substr(21)
     document.getElementById('my_modal_2').showModal()
     setImgSrc(src)
   }
@@ -56,32 +56,32 @@ const About = () => {
         '
         >
           <img
-            src='images/certificates/html-css.jpg'
+            src='/images/certificates/html-css.jpg'
             className='max-w-sm shadow-2xl object-cover object-center'
             onClick={e => showModalHandler(e)}
           />
           <img
-            src='images/certificates/javascript.jpg'
+            src='/images/certificates/javascript.jpg'
             className='max-w-sm shadow-2xl object-cover object-center'
             onClick={e => showModalHandler(e)}
           />
           <img
-            src='images/certificates/men.jpg'
+            src='/images/certificates/men.jpg'
             className='max-w-sm shadow-2xl object-cover object-center'
             onClick={e => showModalHandler(e)}
           />
           <img
-            src='images/certificates/mern.jpg'
+            src='/images/certificates/mern.jpg'
             className='max-w-sm shadow-2xl object-cover object-center'
             onClick={e => showModalHandler(e)}
           />
           <img
-            src='images/certificates/react.jpg'
+            src='/images/certificates/react.jpg'
             className='max-w-sm shadow-2xl object-cover object-center'
             onClick={e => showModalHandler(e)}
           />
           <img
-            src='images/certificates/web-developer-bootcamp.jpg'
+            src='/images/certificates/web-developer-bootcamp.jpg'
             className='max-w-sm shadow-2xl object-cover object-center'
             onClick={e => showModalHandler(e)}
           />
