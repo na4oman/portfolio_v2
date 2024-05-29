@@ -16,7 +16,7 @@ const About = () => {
       <h2 className='text-accent text-center text-6xl mb-8 heading'>
         About me
       </h2>
-      <dialog id='my_modal_2' className='modal'>
+      <dialog id='my_modal_2' className='modal backdrop-blur'>
         <div className='modal-box max-w-[50rem] max-h-[95%] place-content-center p-0 rounded-none'>
           <img
             src={imgSrc}
