@@ -13,7 +13,7 @@ const ProjectCard = ({ project }: any) => {
   } = project
 
   return (
-    <div className='card w-[345px] glass rounded hover:translate-y-[-5px] transition-all shadow'>
+    <div className='card w-[280px] sm:w-[345px] glass rounded hover:translate-y-[-5px] transition-all shadow'>
       <figure className='object-center object-cover h-[180px]'>
         <img src={image} alt={title} />
       </figure>

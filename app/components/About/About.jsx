@@ -5,14 +5,8 @@ const About = () => {
   const [imgSrc, setImgSrc] = useState('')
 
   const showModalHandler = e => {
-    // const src = e.target.src.substr(21)
-    // For development purposes only
-    // const src = e.target.__reactProps$z2wawz801b.src
-    // console.log(e.target.baseURI)
-    // console.log(e.target.src)
     const baseURI = e.target.baseURI
     const src = e.target.src.substring(baseURI.length - 1)
-    // console.log(src)
     document.getElementById('my_modal_2').showModal()
     setImgSrc(src)
   }
@@ -64,32 +58,32 @@ const About = () => {
         >
           <img
             src='/images/certificates/html-css.jpg'
-            className='max-w-sm shadow-2xl object-cover object-center'
+            className='sm:max-w-sm shadow-2xl object-cover object-center'
             onClick={e => showModalHandler(e)}
           />
           <img
             src='/images/certificates/javascript.jpg'
-            className='max-w-sm shadow-2xl object-cover object-center'
+            className='sm:max-w-sm shadow-2xl object-cover object-center'
             onClick={e => showModalHandler(e)}
           />
           <img
             src='/images/certificates/men.jpg'
-            className='max-w-sm shadow-2xl object-cover object-center'
+            className='sm:max-w-sm shadow-2xl object-cover object-center'
             onClick={e => showModalHandler(e)}
           />
           <img
             src='/images/certificates/mern.jpg'
-            className='max-w-sm shadow-2xl object-cover object-center'
+            className='sm:max-w-sm shadow-2xl object-cover object-center'
             onClick={e => showModalHandler(e)}
           />
           <img
             src='/images/certificates/react.jpg'
-            className='max-w-sm shadow-2xl object-cover object-center'
+            className='sm:max-w-sm shadow-2xl object-cover object-center'
             onClick={e => showModalHandler(e)}
           />
           <img
             src='/images/certificates/web-developer-bootcamp.jpg'
-            className='max-w-sm shadow-2xl object-cover object-center'
+            className='sm:max-w-sm shadow-2xl object-cover object-center'
             onClick={e => showModalHandler(e)}
           />
         </div>

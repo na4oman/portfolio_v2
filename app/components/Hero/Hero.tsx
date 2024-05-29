@@ -3,10 +3,10 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className='hero min-h-screen bg-base'>
+    <section className='hero sm:min-h-screen bg-base'>
       <div className='hero-content flex-col lg:flex-row'>
         <div>
-          <h1 className='text-5xl font-bold bg-gradient-to-b from-primary to-accent bg-clip-text text-transparent'>
+          <h1 className='text-4xl sm:text-5xl font-bold bg-gradient-to-b from-primary to-accent bg-clip-text text-transparent'>
             Hi,
             <br />
             I'm Atanas,
@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
         <img
           src='images/profile/profile-picture.jpg'
-          className='max-w-sm rounded-full w-60 h-60 sm:w-72 sm:h-72 m-8  shadow-2xl object-cover object-center'
+          className='max-w-sm rounded-full w-60 h-60 sm:w-72 sm:h-72 m-8 shadow-2xl object-cover object-center mt-2 sm:mt-0'
         />
       </div>
     </section>
