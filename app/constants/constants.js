@@ -185,17 +185,29 @@ export const projects = [
     demoLink: 'https://mui-nextjs-travel-app-atanas.netlify.app',
     codeLink: 'https://github.com/na4oman/mui-nextjs-travel-app',
   },
+  // {
+  //   id: '2',
+  //   title: 'YelpCamp',
+  //   technologies: 'NodeJS, Express, MongoDB, Mapbox',
+  //   summary:
+  //     'Fully responsive RESTful API with CRUD functionality. EJS template for generating HTML markup. Login using PassportJS along with Mapbox location, storing images in Cloudinary. MongoDB is used for storing data as campgrounds, users, reviews and logout session.',
+  //   description:
+  //     'Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna. Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna, Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna',
+  //   image: '/images/projects/yelpcamp.png',
+  //   demoLink: 'https://yelp-camp-atanas.onrender.com/',
+  //   codeLink: 'https://github.com/na4oman/yelp-camp',
+  // },
   {
     id: '2',
-    title: 'YelpCamp',
-    technologies: 'NodeJS, Express, MongoDB, Mapbox',
+    title: 'IMDB Clone',
+    technologies: 'Next.js, TypeScript, Tailwind CSS, Framer Motion',
     summary:
-      'Fully responsive RESTful API with CRUD functionality. EJS template for generating HTML markup. Login using PassportJS along with Mapbox location, storing images in Cloudinary. MongoDB is used for storing data as campgrounds, users, reviews and logout session.',
+      'A modern, full-stack movie discovery app built with Next.js 14, powered by the TMDB API. Browse upcoming releases, top-rated films, now-playing titles, and more — with trailers, cast info, and infinite scroll.',
     description:
       'Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna. Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna, Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna',
-    image: '/images/projects/yelpcamp.png',
-    demoLink: 'https://yelp-camp-atanas.onrender.com/',
-    codeLink: 'https://github.com/na4oman/yelp-camp',
+    image: '/images/projects/imdb.png',
+    demoLink: 'https://atanas-imdb-clone.vercel.app/',
+    codeLink: 'https://github.com/na4oman/imdb-clone',
   },
   {
     id: '3',
@@ -257,16 +269,28 @@ export const projects = [
     demoLink: 'https://omnifood-react-tailwindcss.netlify.app/',
     codeLink: 'https://github.com/na4oman/omnifood-react-tailwindcss',
   },
+  // {
+  //   id: '8',
+  //   title: 'Natours with SASS',
+  //   technologies: 'HTML, CSS, SASS',
+  //   summary:
+  //     'Fully responsive product landing page created only with HTML and SASS. It uses best practises for structuring a page with HTML5 semantic elements. Using SASS for styling the page as well as best practices to structure Sass files.',
+  //   description:
+  //     'Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna. Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna, Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna',
+  //   image: '/images/projects/natours-with-sass.png',
+  //   demoLink: 'https://natours-with-css-and-sass-atanas.netlify.app/',
+  //   codeLink: 'https://github.com/na4oman/natours-with-sass',
+  // },
   {
     id: '8',
-    title: 'Natours with SASS',
-    technologies: 'HTML, CSS, SASS',
+    title: 'Srachko Service — Full Stack Web Application',
+    technologies: 'React, Node.js, Express, Drizzle ORM',
     summary:
-      'Fully responsive product landing page created only with HTML and SASS. It uses best practises for structuring a page with HTML5 semantic elements. Using SASS for styling the page as well as best practices to structure Sass files.',
+      'A modern, full-stack service request management platform for Srachko Service — an authorized repair center for home appliances and electronics in Bulgaria. Customers can submit service requests online, track their status, and the admin team can manage all requests through a dedicated dashboard.',
     description:
       'Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna. Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna, Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna',
-    image: '/images/projects/natours-with-sass.png',
-    demoLink: 'https://natours-with-css-and-sass-atanas.netlify.app/',
-    codeLink: 'https://github.com/na4oman/natours-with-sass',
+    image: '/images/projects/srachko.png',
+    demoLink: 'https://srachko-website-frontend.vercel.app/',
+    codeLink: 'https://github.com/na4oman/srachko-website',
   },
 ]
