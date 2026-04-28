@@ -198,7 +198,7 @@ export const projects = [
   //   codeLink: 'https://github.com/na4oman/yelp-camp',
   // },
   {
-    id: '2',
+    id: '12',
     title: 'IMDB Clone',
     technologies: 'Next.js, TypeScript, Tailwind CSS, Framer Motion',
     summary:
@@ -221,17 +221,29 @@ export const projects = [
     demoLink: 'https://proshop-app-atanas.onrender.com/',
     codeLink: 'https://github.com/na4oman/proshopapp',
   },
+  // {
+  //   id: '4',
+  //   title: 'Natours tours',
+  //   technologies: 'NodeJS, Express, MongoDB, Stripe, JWT',
+  //   summary:
+  //     'Tours app with functionality: detail tour page, login with JWT, buy tour using Stripe payments, user profile page, my tours page, adding reviews. Using MongoDB for storing tours, users, reviews, bookings. Pug template for generating HTML markup.',
+  //   description:
+  //     'Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna. Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna, Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna',
+  //   image: '/images/projects/natours-tours.png',
+  //   demoLink: 'https://natours-app-atanas.onrender.com/',
+  //   codeLink: 'https://github.com/na4oman/natours',
+  // },
   {
-    id: '4',
-    title: 'Natours tours',
-    technologies: 'NodeJS, Express, MongoDB, Stripe, JWT',
+    id: '14',
+    title: 'Movie Expo App',
+    technologies: 'React Native and Expo',
     summary:
-      'Tours app with functionality: detail tour page, login with JWT, buy tour using Stripe payments, user profile page, my tours page, adding reviews. Using MongoDB for storing tours, users, reviews, bookings. Pug template for generating HTML markup.',
+      'A comprehensive movie and TV show discovery app built with React Native and Expo. Browse trending movies, discover new TV shows, explore celebrity profiles, and keep track of your favorite content.',
     description:
       'Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna. Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna, Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna',
-    image: '/images/projects/natours-tours.png',
-    demoLink: 'https://natours-app-atanas.onrender.com/',
-    codeLink: 'https://github.com/na4oman/natours',
+    image: '/images/projects/movie-expo-app.png',
+    demoLink: 'https://expo.dev/accounts/atanas_irikev/projects/movie-expo-app',
+    codeLink: 'https://github.com/na4oman/movie-expo-app',
   },
   // {
   //   id: '5',
@@ -257,17 +269,29 @@ export const projects = [
   //   demoLink: 'https://forkify-atanas.netlify.app',
   //   codeLink: 'https://github.com/na4oman/forkify-search-food-app',
   // },
+  // {
+  //   id: '7',
+  //   title: 'Omnifood',
+  //   technologies: 'React, TailwindCSS',
+  //   summary:
+  //     'Fully responsive product landing page created with React and TailwindCSS. Designed and created by Jonas Schmedtmann in his HTML and CSS Udemy course and recreated by me using modern technologies like React and TailwindCSS.',
+  //   description:
+  //     'Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna. Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna, Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna',
+  //   image: '/images/projects/omnifood.png',
+  //   demoLink: 'https://omnifood-react-tailwindcss.netlify.app/',
+  //   codeLink: 'https://github.com/na4oman/omnifood-react-tailwindcss',
+  // },
   {
-    id: '7',
-    title: 'Omnifood',
-    technologies: 'React, TailwindCSS',
+    id: '17',
+    title: 'BSSB - Bulgarian Sunderland Supporters Branch',
+    technologies: 'React Native and Expo, Firebase',
     summary:
-      'Fully responsive product landing page created with React and TailwindCSS. Designed and created by Jonas Schmedtmann in his HTML and CSS Udemy course and recreated by me using modern technologies like React and TailwindCSS.',
+      'A comprehensive mobile application for the Bulgarian Sunderland AFC supporters community, built with React Native and Expo. The app provides real-time match information, team statistics, social features, and community management tools.',
     description:
       'Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna. Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna, Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna',
-    image: '/images/projects/omnifood.png',
-    demoLink: 'https://omnifood-react-tailwindcss.netlify.app/',
-    codeLink: 'https://github.com/na4oman/omnifood-react-tailwindcss',
+    image: '/images/projects/bssb.png',
+    demoLink: 'https://expo.dev/accounts/atanas_irikev/projects/bssb',
+    codeLink: 'https://github.com/na4oman/bssb',
   },
   // {
   //   id: '8',
@@ -282,7 +306,7 @@ export const projects = [
   //   codeLink: 'https://github.com/na4oman/natours-with-sass',
   // },
   {
-    id: '8',
+    id: '18',
     title: 'Srachko Service — Full Stack Web Application',
     technologies: 'React, Node.js, Express, Drizzle ORM',
     summary:
