@@ -176,9 +176,9 @@ export const projects = [
   {
     id: '1',
     title: 'Travel App',
-    technologies: 'Mui, NextJS, MongoDB, Mapbox',
+    technologies: 'Next.js, MUI v5, MongoDB, Mapbox GL, SWR',
     summary:
-      'Fully responsive product application with functionality: search, bookmarks, pagination, product detail page, Mapbox for showing product location, adding comments. Using MongoDB for storing data. SWR hook for data fetching.',
+      'A modern, responsive travel application built with Next.js and Material-UI, featuring tour listings, interactive maps, user comments, and bookmarking functionality.',
     description:
       'Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna. Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna, Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna',
     image: '/images/projects/mui-next-travel-app.png',

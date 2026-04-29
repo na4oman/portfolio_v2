@@ -17,11 +17,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang='en' data-theme='dark'>
+    <html lang='en' data-theme='synthwave'>
       <body className={inter.className}>
         <Container>
           <Navbar />
-          <main>{children}</main>
+          <main role="main">{children}</main>
         </Container>
       </body>
     </html>
